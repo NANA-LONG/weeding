@@ -1,0 +1,11 @@
+
+  <image class='background-image' src='../../images/bj_2.png'></image>
+  <form class="form" bindsubmit="formSubmit">
+    <input name="userName" id="userName" placeholder="请输入您的姓名" placeholder-style="color:#ff359a" bindblur="bindChange" placeholder-class="phcolor"></input>
+    <input name="userPhone" id="userPhone" placeholder="请输入您的手机号码" placeholder-style="color:#ff359a" bindblur="bindChange" placeholder-class="phcolor"></input>
+    <picker class="pi" mode="selector" range="{{selectorItems}}" bindchange="selectorChange">
+      <view style="color:#ff359a">参加婚礼人数:{{selector}}</view>
+    </picker>
+    <input name="blessing" type="text" placeholder="输入您的祝福语" placeholder-style="color:#ff359a" bindfocus="focus"></input>
+    <button class="button" form-type="submit">提交</button>
+  </form>

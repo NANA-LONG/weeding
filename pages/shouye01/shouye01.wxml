@@ -1,0 +1,18 @@
+<image class="background" src="../../images/bg_1.png" ></image>
+<view class="player player-{{isPlayingMusic ? 'play' : 'pause'}}" bindtap="play">
+<image  class="player" src="../../images/music_icon.png" ></image>
+<image  class="play" src="../../images/music_play.png" ></image>
+</view>
+<image class="gif" src="../../images/save_the_date.gif"></image>
+<view class="invite">邀请函</view>
+<image class="yuan" src="../../images/avatar.png"></image>
+<view class="name">小小张</view>
+<image class="phone" src="../../images/tel.png"></image>
+<view class="id">新郎</view>
+<image class="xi" src="../../images/wedding.png"></image>
+<image class="phone2" src="../../images/tel.png"></image>
+<view class="xxxli">小小李</view>
+<view class="xn">新娘</view>
+<view class="canjia">我们诚挚邀请您来参加我们的婚礼</view>
+<view class="data">时间:2018年1月28日</view>
+<view class="local">地点:北京市海淀区XX路XX酒店</view>

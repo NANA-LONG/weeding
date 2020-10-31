@@ -1,0 +1,11 @@
+ <!-- <view class="Title">标题:海边随拍</view>
+<view class="data">时间:2018-8-18 14:34:09</view>
+<video class="myvideo" src="http://localhost:3000/1.mp4" objectFit="fill"></video>
+<view class="Title2">标题:勿忘心安</view>
+<view class="data2">时间:2019-11-28 11:28:18</view>
+<video class="myvideo2"></video> -->
+<view class="video" wx:for="{{video_info}}" wx:key="*this">
+<view>标题:{{item.title}}</view>
+<view class="video_date">时间:{{item.date}}</view>
+<video src="{{item.url}}" objectFit="fill"></video>
+</view> 

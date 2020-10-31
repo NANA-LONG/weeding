@@ -1,0 +1,128 @@
+/* pages/wedding_class/wedding_class.wxss */
+Pages{
+  width: 100vw;
+  height: 100vh;
+}
+.background{
+  width: 100vw;
+  height: 100vh;
+}
+.player{
+  position: fixed;
+  top: 20px;
+  left: 260px;
+  width: 12vw;
+  height: 8vh;
+}
+.play{
+    position: fixed;
+  top: 20px;
+  left: 290px;
+  width: 4vw;
+  height: 8vh;
+}
+.player{
+  position: fixed;
+  top: 20px;
+  left: 260px;
+  width: 12vw;
+  height: 8vh;
+}
+.gif{
+  position: fixed;
+  top: 14px;
+  left: 150px;
+  width: 15vw;
+  height: 15vh;
+}
+.invite{
+  position: fixed;
+  color: #ff359a;
+  top: 90px;
+  left: 130px;
+  font-size: 30px;
+}
+.yuan{
+  position: fixed;
+  height: 120px;
+  width: 120px;
+  top: 137px;
+  left: 105px;
+  border: 3px #ff359a solid;
+  border-radius: 130px;
+}
+.name{
+  position: fixed;
+  color: #ff359a;
+  top: 270px;
+  left: 90px;
+  font-size: 13px;
+}
+.id{
+  position: fixed;
+  color: #ff359a;
+  top: 295px;
+  left: 95px;
+  font-size: 13px;
+}
+.xi{
+  position: fixed;
+  color: #ff359a;
+  height: 35px;
+  width: 35px;
+  top: 275px;
+  left: 150px; 
+}
+.xxxli{
+  position: fixed;
+  color: #ff359a;
+  top: 270px;
+  left: 205px;
+  font-size: 13px;
+}
+.xn{
+  position: fixed;
+  color: #ff359a;
+  top: 295px;
+  left: 208px;
+  font-size: 13px;
+}
+.canjia{
+  position: fixed;
+  color: #ff359a;
+  top: 330px;
+  left: 60px;
+  font-size: 15px;
+}
+.data{
+  position: fixed;
+  color: #ff359a;
+  top: 370px;
+  left: 100px;
+  font-size: 13px;
+}
+.local{
+  position: fixed;
+  color: #ff359a;
+  top: 390px;
+  left: 70px;
+  font-size: 13px;
+}
+.phone{
+  position: fixed;
+  top: 260px;
+  left: 130px;
+  width: 15px;
+  height: 15px;
+  border: 1px #ff359a solid;
+  border-radius: 50%;
+}
+.phone2{
+  position: fixed;
+  top: 260px;
+  left: 245px;
+  width: 15px;
+  height: 15px;
+  border: 1px #ff359a solid;
+  border-radius: 50%;
+}

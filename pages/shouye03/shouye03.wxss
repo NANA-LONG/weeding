@@ -1,0 +1,31 @@
+input{
+ width: 240px;
+  padding: 5px;
+  border: 1px solid #ff359a;
+  margin-bottom: 5px;
+}
+.form{
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 240px;
+}
+.button{
+  background-color: #ff359a;
+}
+.background-image{
+   height : 100%;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.pi{
+   width: 240px;
+  padding: 5px;
+  border: 1px solid #ff359a;
+  margin-bottom: 5px;
+}
